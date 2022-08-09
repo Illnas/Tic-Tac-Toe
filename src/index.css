@@ -51,7 +51,7 @@ body {
   background-color: rgb(212, 212, 212);
 }
 
-h2 {
+ h2 {
   margin-bottom: 60px;
   font-size: 50px;
 }
@@ -112,3 +112,39 @@ h2 {
   align-items: center;
   margin: 100px;
 }
+
+/* Media Queries */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  #showgrid {
+    flex-direction: column;
+  }
+
+  .contained {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h2 {
+    font-size: 60px;
+  }
+
+  .playerOne {
+    text-align: center;
+  }
+
+  .playerTwo {
+    text-align: center;
+  }
+
+  .victory {
+    text-align: center;
+  }
+}
+
+
