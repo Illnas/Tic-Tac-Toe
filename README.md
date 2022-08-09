@@ -10,3 +10,7 @@ Next, should be doing this same project with Redux and React Router.
 
 Well, onwards to the next project!
 </p>
+
+
+P.S.  I totally forgot to add media queries to this project, which is fixed now. So, next time I am on break, I am playing this game!!! :D
+Also, this game is getting account creation, settings. At this time, I am learning Backend with Node.js, so the moment I am done with it, I will be "upgrading" my projects!
