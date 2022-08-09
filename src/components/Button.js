@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-const Button = ({ borderState, setBorderState, value, position }) => {
+const Button = ({  value, position }) => {
   const [item, setItem] = useState("");
   const [disable, setDisable] = useState(false);
+  const [borderState, setBorderState] = useState(false)
 
-  function showingNumber(e) {
+  function showingNumber() {
     if (borderState === false) {
       setItem("X");
       setDisable(true);
@@ -19,13 +20,14 @@ const Button = ({ borderState, setBorderState, value, position }) => {
       position[value] = "O"
     }
   }
+  console.log(item)
 
   return (
     <div>
       <button
         type="button"
         className="btn"
-        onClick={(e) => {showingNumber(e)}}
+        onClick={() => showingNumber()}
         disabled={disable}
         value={value}
       >{item}</button>
