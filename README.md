@@ -1,16 +1,77 @@
-<h1>Tic-Tac-Toe with React.js</h1>
 
-<p>
-Tic Tac Toe project done only with React.js. It was not a difficult project at first, but implementing game design 
-qualities as Start component and Replay component, did not make it easy project either.
+# Project: Tic Tac Toe
 
-I did use this chance in order to practice Ref Hook, so it's okeyish considering the effort done.
-
-Next, should be doing this same project with Redux and React Router. 
-
-Well, onwards to the next project!
-</p>
+First project that I have done. 
 
 
-P.S.  I totally forgot to add media queries to this project, which is fixed now. So, next time I am on break, I am playing this game!!! :D
-Also, this game is getting account creation, settings. At this time, I am learning Backend with Node.js, so the moment I am done with it, I will be "upgrading" my projects!
+
+
+### App is hosted here:  [Tic Tac Toe](https://illnas.github.io/Tic-Tac-Toe/)
+
+
+
+
+## Features
+
+- Unique gray and black themed Tic Tac Toe game
+- Counter for victories
+- Start, and Won Game/Lost Game/Draw pages
+- Only one player and he decides for Player One and Player Two
+- Lack of Routing (useRef Hook was used instead)
+
+
+
+
+
+
+
+### Skills used in this project:
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react)](https://skillicons.dev)
+
+
+### Roadmap
+
+- Routing
+- Login/Create an Account/Play as a guest pages
+- Setting Page in which you can change font, colors and account details
+- localStorage in which you will store all data 
+- implementation of TS
+
+
+
+
+### Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Illnas/Tic-Tac-Toe.git
+```
+
+Go to the project directory
+
+```bash
+  cd Tic-Tac-Toe
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  ng start
+```
+
+
+### Notes
+
+This was first project that I did and it's not pretty. As such, project is fairly simple which is
+why I decided to implement TS in it. Also, will need to play around with Player Two. I want to create Player Two that
+will play by itself, so whenever you decide to play, you will have an opponent! 
+
+
