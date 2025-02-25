@@ -1,7 +1,6 @@
 
 # Project: Tic Tac Toe
 
-First project that I have done. 
 
 
 
@@ -68,10 +67,5 @@ Start the server
 ```
 
 
-### Notes
-
-This was first project that I did and it's not pretty. As such, project is fairly simple which is
-why I decided to implement TS in it. Also, will need to play around with Player Two. I want to create Player Two that
-will play by itself, so whenever you decide to play, you will have an opponent! 
 
 
